@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminDashboardActivity">
+
+    <!-- MAP -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- ADD USER BUTTON -->
+
+    <!-- HISTORY BUTTON -->
+
+    <ImageButton
+        android:id="@+id/btnAddUser"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/white"
+        android:foregroundTint="@color/black"
+        android:contentDescription="Add User"
+        android:elevation="8dp"
+        android:src="@android:drawable/ic_input_add" />
+
+
+    <ImageButton
+        android:id="@+id/btnLogout"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:backgroundTint="@color/cardview_light_background"
+        android:contentDescription="Logout"
+        android:elevation="8dp"
+        android:src="@android:drawable/ic_lock_power_off"/>
+
+</FrameLayout>

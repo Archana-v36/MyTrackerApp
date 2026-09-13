@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/main"
+android:orientation="vertical"
+android:padding="0dp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#F7F8FC"
+tools:context=".ProfilePageActivity">
+
+    <!-- Top Header Background 387-->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="#0A1F44"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="414dp"
+            android:layout_height="215dp"
+            android:layout_gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_person_pin_24" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+    <!-- Profile Card -->
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="275dp"
+        android:layout_margin="30dp"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        android:padding="24dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="290dp"
+            android:orientation="vertical">
+
+
+            <!-- Name Field -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Complete Profile"
+                android:textColor="#0A1F44"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+
+                android:id="@+id/etName"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/input_bg"
+                android:hint="Enter Name"
+                android:padding="14dp"
+                android:maxLength="10"
+                android:textColor="#000000"
+                android:textColorHint="#888888" />
+
+
+            <!-- Vehicle Number Field -->
+
+            <EditText
+                android:id="@+id/etVehicle"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:maxLength="10"
+                android:background="@drawable/input_bg"
+                android:hint="Enter Vehicle Number"
+                android:padding="14dp"
+                android:textColor="#000000"
+                android:textColorHint="#888888" />
+
+
+            <!-- Save Button -->
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#0A1F44"
+                android:text="Save Profile"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7F8FC"
+    tools:context=".UserscanQrActivity">
+
+
+
+    <!-- Header Section -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#0A1F44"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Vehicle Scanner"
+            android:textColor="#FFFFFF"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="6dp"
+            android:text="Scan QR to connect vehicle tracking"
+            android:textColor="#DADADA"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+
+    <!-- Content Section -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <!-- Scan Button -->
+
+        <Button
+            android:id="@+id/btnScan"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="260dp"
+            android:layout_height="58dp"
+            android:backgroundTint="#0A1F44"
+            android:text="Open Scanner"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <!-- Scan Result -->
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:text="No vehicle scanned yet"
+            android:textColor="#555555"
+            android:textSize="16sp" />
+
+
+        <!-- Status Text -->
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Ready to connect"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#0A1F44"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="204dp"
+            android:layout_height="122dp"
+            app:srcCompat="@drawable/scanner_image" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
