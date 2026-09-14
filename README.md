@@ -68,6 +68,17 @@ Live latitude and longitude  <br>
 
 [📄 View Project Output](docs/Project-Output.pdf)
 
+<h2>Future Enhancements</h2>
+🔔 Push notifications for important tracking and connection events <br>
+🗺️ Route history and travelled-path visualization <br>
+📊 Trip history and location reports <br>
+👥 Support for multiple users and vehicles under an Admin <br>
+🚨 Emergency/SOS alert functionality <br>
+🔋 Battery-efficient background location tracking <br>
+🔐 Enhanced Firebase security and role-based access control <br>
+☁️ Cloud-based storage and reporting improvements <br>
+📱 Improved UI/UX and responsive design <br>
+
 <h3>Author</h3>
 Archana <br>
 BCA Student | Java Developer | Android Development<br>
