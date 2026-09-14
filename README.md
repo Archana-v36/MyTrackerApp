@@ -64,7 +64,7 @@ Live latitude and longitude  <br>
 
 ![MyTrackerApp Project Structure](screenshots/Project-Structure.png)
 
-<h3>Project Output</h3>
+<h2>Project Output</h2>
 
 [📄 View Project Output](docs/Project-Output.pdf)
 
