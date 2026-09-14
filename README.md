@@ -66,7 +66,7 @@ Live latitude and longitude  <br>
 
 <h3>Project Output</h3>
 
-[📄 View Project Output](docs/MyTrackerApp-Project-Output.pdf)
+[📄 View Project Output](docs/Project-Output.pdf)
 
 <h3>Author</h3>
 Archana <br>
