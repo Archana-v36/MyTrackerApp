@@ -61,3 +61,5 @@ Live latitude and longitude  <br>
 <h3>Firebase offline persistence is also enabled through the application class.</h3>
 
 <h2>Project Structure</h2>
+
+![MyTrackerApp Project Structure](screenshots/Project-Structure.png)
