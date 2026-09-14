@@ -36,4 +36,4 @@ XML Layouts <br>
 Gradle <br>
 
 <h3>Application Flow</h3>
-(Application flow chart.png)
+Application flow chart.png
