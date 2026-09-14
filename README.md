@@ -35,5 +35,6 @@ Android Foreground Service <br>
 XML Layouts <br>
 Gradle <br>
 
-<h3>Application Flow</h3>
-Application flow chart.png
+<h2>Application Flow</h2>
+
+![MyTrackerApp Application Flow](screenshots/Application%20flow%20chart.png)
