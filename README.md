@@ -63,3 +63,9 @@ Live latitude and longitude  <br>
 <h2>Project Structure</h2>
 
 ![MyTrackerApp Project Structure](screenshots/Project-Structure.png)
+
+<h3>Author</h3>
+Archana <br>
+BCA Student | Java Developer | Android Development<br>
+
+GitHub: Archana-v36
