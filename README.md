@@ -38,3 +38,26 @@ Gradle <br>
 <h2>Application Flow</h2>
 
 ![MyTrackerApp Application Flow](screenshots/Application%20flow%20chart.png)
+
+<h2>Location Tracking</h2>
+
+The application uses Android's Foreground Service with the Fused Location Provider to obtain high-accuracy location updates. The user's latitude and longitude are continuously synchronized with Firebase Realtime Database, allowing the Admin Dashboard to display the user's live location on Google Maps.
+
+<h2>Session Management</h2>
+
+The application uses Firebase Authentication and SharedPreferences to maintain login and vehicle-session information. LastScreenManager stores and restores the previously active screen, helping the application continue from the appropriate screen after reopening.
+
+<h2>Firebase Data</h2>
+
+<h3>The application uses Firebase Realtime Database for:</h3>
+
+User profiles <br>
+Admin/User connection information  <br>
+Vehicle IDs <br>
+User IDs  <br>
+Connection status  <br>
+Live latitude and longitude  <br>
+
+<h3>Firebase offline persistence is also enabled through the application class.</h3>
+
+<h2>Project Structure</h2>
